@@ -1,4 +1,3 @@
-import imagemLivro from '../../assets/imagemLivro.png'
 import s from './livrosDoados.module.scss'
 import axios from 'axios'
 import { useState, useEffect } from 'react'

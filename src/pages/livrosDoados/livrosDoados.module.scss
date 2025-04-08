@@ -1,5 +1,5 @@
 .livrosDoadosSection{
-    height: 80vh;
+    height: 180vh;
 
     h2{
         height: 10vh;
@@ -10,8 +10,9 @@
     }
 
     .containerCards{
-        height: 70vh;
+        height: 100vh;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
 
@@ -51,16 +52,18 @@
 
 @media(max-width: 450px){
     .livrosDoadosSection{
-        height: 180vh;
+        height: 800vh;
+        background-color: white;
 
         h2{
             height: 20vh;
         }
 
         .containerCards{
-            height: 170vh;
+            height: 560vh;
             display: flex;
             flex-direction: column;
+            flex-wrap: nowrap;
             justify-content: space-evenly;
 
             section{
