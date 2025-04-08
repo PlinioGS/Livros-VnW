@@ -31,5 +31,5 @@ export default function LivrosDoados() {
                 ))}
             </section>
         </section>
-            )
+    )
 }

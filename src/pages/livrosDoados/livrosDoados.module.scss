@@ -48,3 +48,28 @@
         }
     }
 }
+
+@media(max-width: 450px){
+    .livrosDoadosSection{
+        height: 180vh;
+
+        h2{
+            height: 20vh;
+        }
+
+        .containerCards{
+            height: 170vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            section{
+                width: 50vw;
+
+                img{
+                    width: 35vw;
+                }
+            }
+        }
+    }
+}
