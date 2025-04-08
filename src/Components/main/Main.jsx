@@ -2,7 +2,7 @@ import card1 from '../../assets/card1.png'
 import card2 from '../../assets/card2.png'
 import card3 from '../../assets/card3.png'
 import card4 from '../../assets/card4.png'
-import s from './Main.module.scss'
+import s from './main.module.scss'
 
 export default function Main(){
     return(
